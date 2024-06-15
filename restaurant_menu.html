@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html><div class="bg">
+<head>  
+    <title>nate's cooking</title>
+    <style>
+        /* CSS styles for the background */
+        .bg {
+            color: black;
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+        }
+
+        /* CSS styles for the menu heading */
+        .h3menu {
+            color: black;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+    
+</head>
+<body>
+  
+        <h1 style="font-family: Arial, sans-serif;">Welcome to Nate's Cooking</h1>
+        
+            <nav>
+                <h2 style="display: flex;"></h2>
+                    <a href="#menu">Menu</a>
+                    <a href="#order-form">Order</a>
+                </h2>
+       
+        <figure>
+            <img src="nate.png" width="230" alt="nate">
+        </figure>
+        <br>
+        <hr/><br>
+
+    <main>
+        <!-- FIRST SECTION: Menu -->
+        <section id="menu">
+            <h2 style="font-family: Arial, sans-serif;">MENU</h2>
+            <article>
+                <h3>The English Breakfast Galore</h3>
+                <figure>
+                    <img src="breakfast.png" width="200" alt="breakfast">
+                </figure>
+                <p><i><b>This meal is a popular pick among our menu</b></i></p>
+                <p><i>Price: $10</i></p>
+            </article>
+            <hr/>
+            <article>
+                <h3>Mango Juice</h3>
+                <figure>
+                    <img src="mango.png" width="200" alt="mango-juice">
+                </figure>
+                <p><i><b>This goes perfectly with the Breakfast Galore meal!</b></i></p>
+                <p><i>Price: $5</i></p>
+            </article>
+            <hr/>
+            <article>
+                <h3>Coffee</h3>
+                <figure>
+                    <img src="coffee.png" width="200" alt="coffee">
+                </figure>
+                <p><i><b>The perfect way to end a delicious breakfast meal!</b></i></p>
+                <p><i>Price: $2</i></p>
+                <br>
+                <hr/>
+                <br>
+            </article>
+        </section>
+
+        <!-- SECOND SECTION: Order Form -->
+        <section id="order-form">
+            <h2 style="font-family: Arial, sans-serif;">Order Form</h2>
+            <article>
+                <h5 style="font-family: Arial, sans-serif;"><i>Place Your Order</i></h5>
+                <form style="font-family: Arial, sans-serif;">
+                    <label for="number">Number of items:</label><br>
+                    <input type="number" id="number" name="number" min="0"><br><br>
+
+                    <label for="sides">Sides:</label><br>
+                    <input type="checkbox" id="fries" name="sides" value="fries">
+                    <label for="fries">Fries</label><br>
+                    <input type="checkbox" id="salad" name="sides" value="salad">
+                    <label for="salad">Salad</label><br>
+                    <input type="checkbox" id="soup" name="sides" value="soup">
+                    <label for="soup">Soup</label><br><br>
+
+                    <label for="addons">Add-ons:</label><br>
+                    <input type="checkbox" id="cheese" name="addons" value="cheese">
+                    <label for="cheese">Cheese</label><br>
+                    <input type="checkbox" id="bacon" name="addons" value="bacon">
+                    <label for="bacon">Bacon</label><br><br>
+
+                    <label for="special-requests">Special Requests:</label><br>
+                    <textarea id="special-requests" name="special-requests" rows="4" cols="50"></textarea><br><br>
+
+                    <input type="submit" value="Go To Checkout">
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p><i>Made with love by <b>@kaverse</b></i></p>
+    </footer>
+
+</body>
+</div>
+</html>
